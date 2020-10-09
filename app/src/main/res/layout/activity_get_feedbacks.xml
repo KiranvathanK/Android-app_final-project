@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/feedback"
+    tools:context="shashi.com.driving_style.activities.GetFeedbacksActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+    <Button
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:text="Results"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

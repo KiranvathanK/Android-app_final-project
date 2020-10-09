@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Driving Styles</string>
+    <string name="Success">Success</string>
+    <string name="Loading">Loading</string>
+    <string name="server_error">Server Error</string>
+    <string name="error">ERROR</string>
+    <string name="title_activity_sale_reports">SaleReportsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gen_please_wait">PDF</string>
+    <string name="gen_pdf_file">Generating PDF Please wait..</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_near_by_bus">Map</string>
+
+
+    <string-array name="feedback_type">
+        <item>Select Destination</item>
+    </string-array>
+
+
+    <string-array name="loc">
+        <item>Select Destination</item>
+        <item>Bagalkot</item>
+        <item>Ballari</item>
+        <item>Belagavi</item>
+        <item>Bengaluru Rural</item>
+        <item>Bengaluru Urban</item>
+        <item>Bidar</item>
+        <item>Chamarajanagar</item>
+        <item>Chikballapur</item>
+        <item>Chikkamagaluru</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kalaburagi (Gulbarga)</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysuru</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shivamogga</item>
+        <item>Tumakuru</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Vijayapura</item>
+        <item>Yadgiri</item>
+    </string-array>
+
+    <string-array name="locc">
+        <item>Select Source</item>
+        <item>Bagalkot</item>
+        <item>Ballari</item>
+        <item>Belagavi</item>
+        <item>Bengaluru Rural</item>
+        <item>Bengaluru Urban</item>
+        <item>Bidar</item>
+        <item>Chamarajanagar</item>
+        <item>Chikballapur</item>
+        <item>Chikkamagaluru</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kalaburagi (Gulbarga)</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysuru</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shivamogga</item>
+        <item>Tumakuru</item>
+        <item>Udupi</item>
+        <item>Uttara Kannada</item>
+        <item>Vijayapura</item>
+        <item>Yadgiri</item>
+    </string-array>
+
+</resources>

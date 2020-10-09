@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item
+        android:id="@+id/item1"
+        android:visible="false"
+        android:title="Items" />
+    <item
+        android:id="@+id/item2"
+        android:visible="false"
+        android:title="Broadcast messages" />
+    <item
+        android:id="@+id/item3"
+        android:visible="false"
+        android:title="Route Images" />
+    <item
+        android:id="@+id/item4"
+        android:title="Feedback"
+        android:visible="false"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/item5"
+        android:title="Logout"
+        app:showAsAction="withText" />
+</menu>

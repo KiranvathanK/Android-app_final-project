@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="shashi.com.driving_style.activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <!--TEXT INPUT LAYOUT-->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="281dp"
+            android:layout_height="153dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/login1" />
+
+            <!--USERNAME INPUT-->
+            <shashi.com.driving_style.custom_views.EditTextRoboto_Light
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="UR USERNAME HERE"
+                android:drawablePadding="8dp"
+                android:inputType="textEmailAddress"
+       />
+
+
+            <!--USER PASSWORD INPUT-->
+            <shashi.com.driving_style.custom_views.EditTextRoboto_Light
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="UR SECRET KEY"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:inputType="textPassword" />
+        <!--LOGIN ACTION PROCESS BUTTON-->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/White"
+            android:text="Login"
+            android:background="#FFA500" />
+
+        <TextView
+            android:id="@+id/btn_reg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="New User? Register..!!"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>
